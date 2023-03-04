@@ -1,0 +1,123 @@
+@media (max-width: 1024px) {
+    .navigation {
+        display: none;
+        margin-top: 15px;
+    }
+    .burger-bar{
+        display: block;
+        margin-right: 10px;
+    }
+    .navigation.activeNav {
+        display: block;
+    }
+    .homeimage {
+        display: none;
+    }
+    .navul {
+        font-size: 14px;
+    }
+    .home {
+        color: black;
+    }
+}
+@media (max-width: 1301px){
+    .homeimage {
+        display: none;
+    }
+    .home {
+        color: black;
+    }
+}
+@media (min-width:320px) and (max-width: 880px){
+    .navul {
+        margin-top: 85px;
+    }
+    .burger-bar{
+        margin-top: 95px;
+    }
+}
+@media (min-width:320px) and (max-width: 600px){
+    .navul {
+        margin-top: 90px;
+    }
+    .burger-bar{
+        margin-top: 95px;
+    }
+    .navigation{
+        height: auto;
+    }
+    .home{
+        margin-right: 20px;
+    }
+    .text1 {
+        width: 400px;
+        font-size: 42px;
+    }
+    .text2 {
+        width: 300px;
+    }
+}
+@media (min-width:320px) and (max-width:480px){
+    .text1 {
+        width: 300px;
+        font-size: 42px;
+    }
+    .text2 {
+        width: 300px;
+    }
+}
+@media (min-width:320px) and (max-width:1500px){
+    .ourfood-image{
+        width: 600px;
+        height: 400px;
+    }
+    .ourfood-txt {
+        left: 700px;
+    }
+    .foods {
+        left: 700px;
+    }
+    .ourfood-order{
+        left: 630px;
+    }
+}
+@media (min-width:320px) and (max-width:1300px){
+    .foods{
+        height: auto;
+        left: 10px;
+        margin-top: 20px;
+        width: auto;
+    }
+    .ourfood-txt {
+        left: 10px;
+    }
+    .ourfood-image{
+        display: none;
+    }
+    .ourfood-order{
+        left: 5px;
+        width: 170px;
+    }
+}
+@media (max-width:380px){
+    .text1 {
+        width: 200px;
+        font-size: 25px;
+    }
+    .text2 {
+        width: 200px;
+        font-size: 25px;
+    }
+    .ordernow {
+        width: 150px;
+        margin-top: 50px;
+    }
+}
+@media (min-width:320px) and (max-width:1024px){
+    .buypizza-1{
+        height: auto;
+    }
+    .buypizza-2{
+        height: auto;
+    }
+}
